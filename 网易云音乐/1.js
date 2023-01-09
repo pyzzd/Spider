@@ -571,5 +571,3 @@ function get_data(ids) {
     }
     return data
 }
-
-get_data()
