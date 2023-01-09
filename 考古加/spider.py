@@ -7,7 +7,7 @@ headers = {
     'authority': 'service.kaogujia.com',
     'accept': 'application/json, text/plain, */*',
     'accept-language': 'zh-CN,zh;q=0.9',
-    'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJtSnlFdTNjeUZVYVJsbXFaWUV2eVZnIiwic2lkIjoiNTU5NTM3OCIsImF1ZCI6IjEwMDAiLCJpc3MiOiJrYW9ndWppYS5jb20iLCJ0eXAiOiIxIiwibmJmIjoxNjczMjQ4NTA1LCJleHAiOjE2NzU4NDA1MDUsImlhdCI6MTY3MzI0ODUwNX0.ac0BuWdZAhpDrmi__KplobcdPyEsbWcegDJo1m315Gc',
+    'authorization': '',   #登录cookie
     'cache-control': 'no-cache',
     # Already added when you pass json=
     # 'content-type': 'application/json',
