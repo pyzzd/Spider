@@ -38,19 +38,6 @@ class Spider:
         self.c = random.randint(0,2)
 
     def load_proxy(self):
-        proxyHost = "http-dyn.abuyun.com"
-        proxyPort = "9020"
-
-        # 代理隧道验证信息
-        proxyUser = "HJW47FL79000Z5ID"
-        proxyPass = "0A2B2CCA9D5CB4DC"
-
-        proxyMeta = "http://%(user)s:%(pass)s@%(host)s:%(port)s" % {
-            "host": proxyHost,
-            "port": proxyPort,
-            "user": proxyUser,
-            "pass": proxyPass,
-        }
         self.proxy = None
 
     def load_no(self):
@@ -59,12 +46,6 @@ class Spider:
         return no_list
 
     def encrypt_to_hmac(self, key, value, type_=hashlib.sha512):
-        """
-        key:密钥key
-        value:待加密的字符串
-        type_:hash函数
-        return: 加密后的16进制
-        """
         mac = hmac.new(key.encode(encoding="utf-8"), value.encode("utf8"), type_)
         return mac.hexdigest()
 
