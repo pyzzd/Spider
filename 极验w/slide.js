@@ -9451,7 +9451,8 @@ function track(){
 	}
 
 function get_w() {
-    var u = new window.pyzzd()['encrypt'](random_data());
+	rd = random_data()
+    var u = new window.pyzzd()['encrypt'](rd);
 	var ep = {"v":"7.8.9","$_BIB":false,"me":true,"tm":{"a":1675322859604,"b":0,"c":0,"d":0,"e":0,"f":1675322859610,"g":1675322859610,"h":1675322859610,"i":1675322859610,"j":1675322859610,"k":0,"l":1675322859620,"m":1675322859620,"n":1675322859639,"o":1675322859642,"p":1675322859845,"q":1675322859845,"r":1675322859849,"s":1675322859851,"t":1675322859851,"u":1675322859851},"td":-1}
 	var o = {
 			"lang": 'zh-cn',
@@ -9461,7 +9462,7 @@ function get_w() {
 			"aa": track(),
 			"ep": ep
                 }
-    var l = window.v["encrypt"](JSON.stringify(o), random_data());
+    var l = window.v["encrypt"](JSON.stringify(o), rd);
 	var h = window.m['$_FEr'](l);
 	var w = h+u
     return w
