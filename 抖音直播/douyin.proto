@@ -1,0 +1,148 @@
+syntax = "proto3";
+package douyin;
+
+message PushHeader
+{
+    optional string key = 1;
+    optional string value = 2;
+}
+message PushFrame
+{
+  optional uint64 seqid = 1;
+  optional uint64 logid = 2;
+  optional uint64 service = 3;
+  optional uint64 method = 4;
+  repeated PushHeader headersList = 5;
+  optional string payloadEncoding = 6;
+  optional string payloadType = 7;
+  optional bytes payload = 8;
+}
+
+message Message{
+  optional string method = 1;
+  optional bytes payload = 2;
+  optional uint64 msgId = 3;
+  optional uint32 msgType = 4;
+  optional uint64 offset = 5;
+  optional bool needWrdsStore = 6;
+  optional uint64 wrdsVersion = 7;
+  optional string wrdsSubKey = 8;
+  map<string,string> messageExtraMap = 9;
+}
+message Response
+{
+  repeated Message messagesList = 1;
+  optional string cursor = 2;
+  optional uint64 fetchInterval = 3;
+  optional uint64 now = 4;
+  optional string internalExt = 5;
+  optional uint32 fetchType = 6;
+  map<string,string> routeParamsMap = 7;
+  optional uint64 heartbeatDuration = 8;
+  optional bool needAck = 9;
+  optional string pushServer = 11;
+  optional string liveCursor = 12;
+  optional bool historyNoMore = 13;
+}
+
+message ChatMessage
+{
+      Common common=1;
+      User user=2;
+      string content=3;
+      bool visibleToSender=4;
+      bytes backgroundImage=5;
+      string fullScreenTextColor=6;
+      bytes backgroundImageV2=7;
+      bytes publicAreaCommon=8;
+      bytes giftImage=9;
+      uint64 agreeMsgId=10;
+      uint32 priorityLevel=11;
+      bytes landscapeAreaCommon=12;
+      string eventTime=13;
+      bool sendReview=14;
+      bool fromIntercom=15;
+      bool intercomHideUserCard=16;
+      bytes chatTagsList=17;
+      uint64 chatBy=18;
+      uint32 individualChatPriority=19;
+      bytes rtfContent=20;
+}
+
+message Common
+{
+    string method=1;
+    uint64 msgId=2;
+    uint64 roomId=3;
+    uint64 createTime=4;
+    uint32 monitor=5;
+    bool isShowMsg=6;
+    string describe=7;
+    uint64 foldType=8;
+    uint64 anchorFoldType=9;
+    uint64 priorityScore=10;
+    string logId=11;
+    string msgProcessFilterK=12;
+    string msgProcessFilterV=13;
+    uint64 anchorFoldTypeV2=14;
+    uint64 processAtSeiTimeMs=15;
+    uint64 randomDispatchMs=16;
+    bool isDispatch=17;
+    uint32 channelId=18;
+    uint64 diffSei2absSecond=19;
+    uint64 anchorFoldDuration=20;
+    uint32 appId=21;
+}
+
+message User
+{
+      uint64 id=1;
+      uint64 shortId=2;
+      string nickname=3;
+      uint32 gender=4;
+      string signature=5;
+      uint32 level=6;
+      uint64 birthday=7;
+      string telephone=8;
+      string city=9;
+}
+
+message GiftMessage
+{
+  Common common=1;
+  uint64 giftId=2;
+  uint64 fanTicketCount=3;
+  uint64 groupCount=4;
+  uint64 repeatCount=5;
+  uint64 comboCount=6;
+  User user=7;
+
+//  uint32 repeatEnd=9;
+//  bytes textEffect=10;
+//  uint64 groupId=11;
+//  uint64 incomeTaskgifts=12;
+//  uint64 roomFanTicketCount=13;
+//  bytes priority=14;
+//  bytes gift=15;
+//  string logId=16;
+//  uint64 sendType=17;
+//  bytes publicAreaCommon=18;
+//  bytes trayDisplayText=19;
+//  uint64 bannedDisplayEffects=20;
+//  bytes trayInfo=21;
+//  bytes assetEffectMixInfo=22;
+//  bool displayForSelf=23;
+//  string interactGiftInfo=24;
+//  string diyItemInfo=25;
+//  bytes minAssetSetList=26;
+//  uint64 totalCount=27;
+//  uint32 clientGiftSource=28;
+//  bytes anchorGift=29;
+//  bytes toUserIdsList=30;
+//  uint64 sendTime=31;
+//  uint64 forceDisplayEffects=32;
+//  string traceId=33;
+//  uint64 effectDisplayTs=34;
+//  bytes sendTogether=35;
+//  bytes extraEffect=36;
+}
