@@ -24,7 +24,7 @@ function countToText(deciNum, ac_signature) {
 }
 
 function loadAcSignature(url, ac_nonce, ua) {
-    let timeStamp = new Date().getTime().toString()
+    let timeStamp = (new Date().getTime() / 1000 >>> 0).toString()
     bigCountOperation(timeStamp)
     let urlNum = bigCountOperation(url)
     let longStr = ((65521 * (finalNum % 65521) ^ timeStamp) >>> 0).toString(2)
