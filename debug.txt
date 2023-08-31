@@ -1,0 +1,385 @@
+_$Sf(64)
+
+document.cookie
+_$4t[_$OS(_$V1[4])](_$c8, _$73);
+
+
+入口
+_$1z[_$Ma(_$Gp[17])](_$c2, _$4K)
+
+流程
+_$Hh(947, 1)
+
+_$Hh(903, _$k4, false);
+===
+_$MM + _$12() - _$En;
+_$MM 1692586978388
+_$En 1692586993452
+function _$12() {
+    return new Date()["getTime"]();
+}
+
+1692587073235
+=====
+
+_$yd = _$4y["concat"](_$bx);
+_$4y = [65, 178, 8, 38, 98, 230, 113, 69, 86, 130, 154, 170, 120, 45, 81, 173]
+_$bx = [108, 102, 127, 102]
+_$yd = [65, 178, 8, 38, 98, 230, 113, 69, 86, 130, 154, 170, 120, 45, 81, 173, 108, 102, 127, 102]
+====
+
+var _$zi = (_$tm / _$SK[192]) & _$SK[99];
+_$tm = 1692587073235
+_$SK[192] = 4294967296
+_$SK[99] = 4294967295
+_$zi = 394
+===
+var _$uC = _$tm & _$SK[99];
+_$tm = 1692587073235
+_$SK[99] = 4294967295
+_$uC = 369958611
+
+====
+_$xg = [_$zi, _$uC];
+_$zi = 394
+_$uC = 369958611
+_$xg = [394, 369958611]
+====
+_$zh |= _$k4;
+_$k4 = 4
+_$zh = 14
+
+====
+_$xg = [394, 369958611]
+_$CY(_$xg)
+  ||
+[0, 0, 1, 138, 22, 13, 30, 211]
+
+======
+var _$Yv = _$12();  时间戳
+_$Yv = 1692587894303
+
+=======
+_$2W(320)
+======
+_$bg = 189
+_$bg += 5;
+_$bg = 194
+
+======
+_$bg = 197
+=======
+自动化测试
+var _$xg = 0
+  , _$Yv = _$A9(_$PM[208])  "_Selenium_IDE_Recorder,_selenium,callSelenium"
+  , _$vF = _$A9(_$PM[411])  "__driver_evaluate,__webdriver_evaluate,__selenium_evaluate,__fxdriver_evaluate,__driver_unwrapped,__webdriver_unwrapped,__selenium_unwrapped,__fxdriver_unwrapped,__webdriver_script_func,__webdriver_script_fn"
+  , _$1o = [_$A9(_$PM[304]), _$A9(_$PM[94]), _$A9(_$PM[244])];  ['selenium', 'webdriver', 'driver']
+
+=====
+_$RU = False  自动化检测结果
+=====
+var _$CD = _$yX["navigator"]["userAgent"]["match"](RegExp("Chrome\/(\d+)"));
+_$CD = [
+    "Chrome/116",
+    "116",
+    index: 81
+    input: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+    groups: undefined
+]
+=====
+_$RU = _$CD && _$wD(_$CD[1]) < _$SK[35]
+            ||
+_$RU = _$CD && parseInt("116") < 89 = false
+
+=====
+自动化检测
+_$Pa = _$Hh(207) && _$yX[_$A9(_$PM[0])][_$A9(_$PM[94])] = false
+_$xg = false
+
+=====
+_$Ak = _$yX[_$A9(_$PM[37])][_$A9(_$PM[72])](_$vF);
+        ||
+_$Ak = Math.round(0) = 0
+
+=====
+_$1o = _$IK / _$SK[174];
+0 / 100 = 0
+
+=====
+_$l2 = _$hM(_$dk[_$A9(_$PM[48])]);
+_$dk[_$A9(_$PM[48])] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+1523540179
+
+=====
+_$gi = _$dk[_$A9(_$PM[681])] = "Win32"
+Navigator.platform
+
+_$Ez = "Win32"
+
+======
+_$N0 = _$yX[_$A9(_$PM[428])][_$A9(_$PM[51])]().length;
+        ||
+        window["eval"]["toString"]().length
+        ||
+        33
+
+=======
+_$gi = _$A9(_$PM[133])in _$dk = true;
+
+=======
+_$wt = _$dk[_$A9(_$PM[133])]  = Navigator.maxTouchPoints = 0
+
+========
+var _$I$ = _$yt[_$A9(_$PM[4])](_$PM[328], _$PM[86]) = ['lineNumber', 'columnNumber', 'fileName', 'line', 'column', 'description']
+
+========
+_$dk |= 1 << _$SK[11];
+_$SK[11] = 7
+_$dk = 128
+
+========
+_$Ma = _$yX[_$A9(_$PM[37])][_$A9(_$PM[72])](_$1o) = 0
+                        ||
+                    Math.round(0)
+=============
+var _$I$ = new _$K0(_$SK[42]) = new Array(128)
+_$IM = 0;
+
+==============
+_$I$[0] = _$yd  20位数组
+==============
+_$I$[1] = _$xt = 1
+_$I$[2] = _$k4 = 1
+=============
+_$k4 = _$yX[_$A9(_$PM[37])][_$A9(_$PM[72])](_$k4) = 0
+
+===========
+_$gi = _$k4 > _$SK[112];
+0 > 65535 = false
+
+==========
+[((_$k4 & _$SK[81]) >> _$SK[43]), (_$k4 & _$SK[4])]
+[((0) & 65280) >> 8, (0 & 255)] = [0, 0]
+_$I$[3] = [0, 0]
+=============
+_$I$[4] = _$Hh(371, _$Ma);
+_$gi = _$k4 > _$SK[112];
+0 > 65535 = false
+_$I$[4] = [((_$k4 & _$SK[81]) >> _$SK[43]), (_$k4 & _$SK[4])] = [0, 0]
+
+=============
+_$I$[5] = _$Ke = [218, 60, 0, 83]
+
+=============
+_$I$[6] = _$g5 = [103, 134, 137, 109, 215, 98, 29, 0]
+
+============
+_$I$[7] = _$Hh(369, _$Yk) = 2
+============
+_$I$[8] = _$SK[49] = 4
+
+============
+_$I$[9] = _$CY([_$JY, _$2K]);
+_$JY = 25165824
+_$2K = 0
+_$I$[9] = [1, 128, 0, 0, 0, 0, 0, 0]
+============
+_$I$[10] = _$zh = 14
+
+============
+_$I$[11] = _$tj = [0, 0, 1, 138, 22, 13, 30, 211]
+
+==========
+var _$j9 = 12++;
+_$I$[12] = _$qI = undefined
+
+============
+_$dk = _$Hh(352, "$_f0")  = {$_YWTU: '1uTlA9ihctJOJPUy0J8sKPPJjOWqGl9vvJn2ghJdh.q', $_cDro: 'WG', __#classType: 'localStorage'}
+
+var _$dk = _$dP || _$yx._$N6 || (_$yx._$N6 = {})
+_$yx._$N6 = undefined
+
+============
+
+var _$jU = _$dk[_$k4] = undefined
+
+===========
+_$gi = !_$jU && _$fO !== _$qI = false
+
+===========
+_$Hh(352, _$PM[50]);
+_$dk = _$dP = {$_YWTU: '1uTlA9ihctJOJPUy0J8sKPPJjOWqGl9vvJn2ghJdh.q', $_cDro: 'WG', __#classType: 'localStorage'}
+_$jU = undefined
+
+_$dk = _$Hh(352, _$PM[673])
+
+_$jU |= _$SK[154]   = 268435456
+_$SK[154] = 268435456
+
+==========
+
+var _$Ff = _$Hh(738);
+
+_$I$ = _$jU[_$A9(_$PM[347])] || _$jU[_$A9(_$PM[293])] || _$jU[_$A9(_$PM[277])]
+{
+    downlink = 10
+    effectiveType = "4g"
+    onchange = null
+    rtt = 100
+    saveData = false
+}
+===========
+_$I$[13] = _$Ff = 0
+==========
+_$jU |= _$SK[42] = 0 | 128 = 128
+
+var _$df = _$Hh(352, _$PM[131])
+
+var _$52 = _$Hh(352, _$PM[33]);
+
+_$dk = _$Vg(_$Hh(352, _$PM[91]))
+
+ _$dk = _$Vg(_$Hh(352, _$PM[98]));
+ _$dk = _$Vg(_$Hh(352, _$PM[98]))
+
+_$I$[14] = _$HD = 4
+
+==========
+
+_$jU |= _$SK[26]
+        ||
+_$jU = 128 | 65536 = 65664
+
+var _$Pa = _$vh() = undefined
+
+_$jU |= _$SK[154];
+    ||
+_$jU = 65664 | 268435456 = 268501120
+
+===============
+_$rt = "https:443"
+
+_$I$[15] =  _$Hh(369, _$rt.length) = 9
+
+====
+
+_$I$[16] = _$wk(_$rt) = [104, 116, 116, 112, 115, 58, 52, 52, 51]
+
+======
+_$3B = "www.urbtix.hk"
+var _$RU = _$yX[_$A9(_$PM[67])][_$A9(_$PM[99])] = "https:"
+
+var _$BB = _$yX[_$A9(_$PM[67])][_$A9(_$PM[546])] = ""
+_$BB = _$PM[59] = "443"
+
+======
+_$3d
+_$dk = _$PM[75] = "1"
+
+=====
+var _$dk = _$3d(_$k4, _$fO, _$3C) = [false, null]
+            ||
+function _$3d(_$k4, _$fO, _$3C)
+var _$jU = _$Ej()
+            ||
+var _$dk = _$W8(_$SK[107]) = _$W8(9)
+            ||
+_$et(_$2s(9)) = '[{"..KXn5ipyrN1G8jVVSNpSG":[null,null,null,null,null,null],"70aKBsjv98E9qYPoCZ3roa":[null,null,null,null,null,null],"BNEDFP_qlf.8shnXFsOKuq":[null,null,null,null,null,null],"D5gGFzLI9orudpTDfFMfka":[null,null,null,null,null,null],"FjThPkOBogyeCscz5gVEnq":[null,null,null,null,null,null],"GWPGa6qrDyfMi5j86Z2uxA":[null,null,null,null,null,null],"KiszLd5__rT2K8.m4Pwrza":[null,null,null,null,null,null],"LTkToVybgAMSenX7lVdWsA":[null,null,null,null,null,null],"LoldjunnmWKl2WeB06NhDG":[null,null,null,null,null,null],"MebVKcy2PE1sEo5JgbB2_A":[null,null,null,null,null,null],"OzOEN.qx3XIEJ8G_1CFvfA":[null,null,null,null,null,null],"QXWvktsjYGWZMS4C02z4hq":[null,null,null,null,null,null],"SPb_IjezcurbCZtBXRonQa":[null,null,null,null,null,null],"UpH3dQ0Xq__W3UosBRFeTG":[null,null,null,null,null,null],"ZIJAw75rVJpF1tXX9J.uYa":[null,null,null,null,null,null],"_HeHxgLQ.dgbJOYa.xUgxG":[null,null,null,null,null,null],"aOFnvbPUdb5NwyvjH5Cuka":[null,null,null,null,null,null],"bTkk3AzuQUMB.lznLPlwbG":[null,null,null,null,null,null],"cppWe50yu9YfOc37TgCgJA":[null,null,null,null,null,null],"d5GvHzZ3quDf4g0mzo1rha":[null,null,null,null,null,null],"iWEDv9T_yCICFMY5UaGTbG":[null,null,null,null,null,null],"oo5jM9ffpIwf.nBoiLKlmA":[null,null,null,null,null,null],"pRj4lGBpyyHFHUW5wawLJA":[null,null,null,null,null,null],"qKgAttyzDSOWSKdqKOy.1a":[null,null,null,null,null,null],"tPboFBY1E3.EBDrxRIDwGa":[null,null,null,null,null,null],"u3mvZ2KJJGgMlXqgwpUBuG":[null,null,null,null,null,null],"voxUEcBRpCRNJVRuj8FsWq":[null,null,null,null,null,null],"x3i1CRz022DL1eZ4jqqk6A":[null,null,null,null,null,null],"zbLruBwsFKEfFHHq8VLEoA":[null,null,null,null,null,null]},null]\n'
+
+_$jU = _$lJ[_$A9(_$PM[624])](_$dk)
+            ||
+       JSON.parse(_$dk)
+
+var _$I$ = _$jU[0];
+var _$IM = _$jU[1];
+
+var _$j9 = _$Cj(_$9J(_$dk + _$2w + _$fO + _$2w + _$3C));
+            ||
+            _$Cj(_$9J("1" + ":" + "www.urbtix.hk" + ":" + "443"))
+            ||
+            "HI1K5NaOTcYQEenmyq7p7G"
+
+var _$Ff = _$I$[_$j9] = undefined
+
+var _$jU = _$W8(_$SK[32]) = "http:LkPxKz2Ls6tIGt9QOF5uYA:80"
+
+
+_$E5 = _$Du[_$av(_$nE[4])](_$jU, _$nE[15]);  _$7K.split(":")
+var _$j9 = _$Cj(_$9J(_$fO)) = "LkPxKz2Ls6tIGt9QOF5uYA"
+
+
+
+=============
+
+_$jU |= _$SK[116]
+       ||
+_$jU = 268501120 | 262144 = 268763264
+
+============
+_$I$[17] = _$Hh(256) = [0, 0, 33, 128, 90, 207, 96, 211, 5, 87, 105, 110, 51, 50]
+
+============
+var _$uC = _$b2[_$A9(_$PM[248])]() = Object.getServerDataInCookie() = []
+_$uC = _$b2[_$A9(_$PM[314])]() = getClientDataInCookie() = []
+
+============
+_$I$[12] = _$8c(_$jU) = _$8c(268763264) = [16, 5, 0, 128]
+
+==============
+_$I$[_$A9(_$PM[83])](_$IM, _$I$.length - _$IM);splice
+                    ||
+_$I$["splice"](18, 128 - 18);
+
+=============
+_$K0[_$A9(_$PM[8])][_$A9(_$PM[3])][_$A9(_$PM[32])]([], _$I$)
+                    ||
+Array.prototype.concat.apply([], _$I$) = [65, 178, 8, 38, 98, 230, 113, 69, 86, 130, 154, 170, 120, 45, 81, 173, 108, 102, 127, 102, 1, 1, 0, 0, 0, 0, 112, 54, 130, 111, 220, 142, 137, 109, 215, 98, 29, 0, 2, 4, 1, 128, 0, 0, 0, 0, 0, 0, 14, 0, 0, 1, 138, 23, 56, 110, 102, 16, 5, 0, 128, 0, 4, 9, 104, 116, 116, 112, 115, 58, 52, 52, 51, 0, 0, 33, 128, 90, 207, 96, 211, 5, 87, 105, 110, 51, 50]
+
+===========
+_$jU = _$PM[299] = "6"
+_$dk = _$Hh(883) = [191, 197, 38, 140, 178, 37, 101, 13, 209, 186, 203, 245, 220, 253, 19, 127, 29, 57, 52, 41, 113, 66, 33, 230, 61, 25, 54, 223, 133, 140, 44, 109]
+
+_$IM = _$z1[_$A9(_$PM[34])](_$MM / _$SK[145])
+            ||
+       Math.floor(1692606688864 / 1000) = 1692606688
+
+_$j9 = _$z1[_$A9(_$PM[34])](_$En / _$SK[145]);
+            ||
+       Math.floor(1692606853651 / 1000) = 1692606853
+
+===========
+
+_$Ff = (_$I$ / _$SK[192]) & _$SK[99] = (1692606688870 / 4294967296) & 4294967295 = 394
+
+_$df = _$I$ & _$SK[99] = 1692606688870 & 4294967295 = 389574246
+
+_$52 = _$CY([_$IM, _$j9, _$Ff, _$df]) = _$CY([1692606688, 1692606853, 394, 389574246]) = [100, 227, 32, 224, 100, 227, 33, 133, 0, 0, 1, 138, 23, 56, 110, 102]
+
+_$A0 = "Cc2838679F"
+for (_$zi = 0; _$zi < _$52.length; _$zi++) {
+    _$52[_$zi] ^= _$A0[0];
+}
+_$52 = [100, 227, 32, 224, 100, 227, 33, 133, 0, 0, 1, 138, 23, 56, 110, 102]
+
+_$Pa = _$Cj(_$52) = "RiWGgDsOE3VqqqDtmufXRG"
+
+_$jU += _$Pa
+    ||
+_$jU = "6" + "RiWGgDsOE3VqqqDtmufXRG"
+
+============
+
+_$r3 上面的长数组 [65, 178, 8, 38, 98, 230, 113, 69, 86, 130, 154, 170, 120, 45, 81, 173, 108, 102, 127, 102, 1, 1, 0, 0, 0, 0, 112, 54, 130, 111, 220, 142, 137, 109, 215, 98, 29, 0, 2, 4, 1, 128, 0, 0, 0, 0, 0, 0, 14, 0, 0, 1, 138, 23, 56, 110, 102, 16, 5, 0, 128, 0, 4, 9, 104, 116, 116, 112, 115, 58, 52, 52, 51, 0, 0, 33, 128, 90, 207, 96, 211, 5, 87, 105, 110, 51, 50]
+
+var _$uC = _$r3[_$A9(_$PM[3])](_$zi) = _$r3.concat(1) = [65, 178, 8, 38, 98, 230, 113, 69, 86, 130, 154, 170, 120, 45, 81, 173, 108, 102, 127, 102, 1, 1, 0, 0, 0, 0, 112, 54, 130, 111, 220, 142, 137, 109, 215, 98, 29, 0, 2, 4, 1, 128, 0, 0, 0, 0, 0, 0, 14, 0, 0, 1, 138, 23, 56, 110, 102, 16, 5, 0, 128, 0, 4, 9, 104, 116, 116, 112, 115, 58, 52, 52, 51, 0, 0, 33, 128, 90, 207, 96, 211, 5, 87, 105, 110, 51, 50, 1]
+
+var _$Gy = _$hM(_$uC) = 666214234
+
+_$p0 = _$8c(_$Gy) = _$8c(666214234) = [39, 181, 159, 90]
+
+_$r3 = _$r3[_$A9(_$PM[3])](_$p0) = _$r3.concat(_$p0) = [65, 178, 8, 38, 98, 230, 113, 69, 86, 130, 154, 170, 120, 45, 81, 173, 108, 102, 127, 102, 1, 1, 0, 0, 0, 0, 112, 54, 130, 111, 220, 142, 137, 109, 215, 98, 29, 0, 2, 4, 1, 128, 0, 0, 0, 0, 0, 0, 14, 0, 0, 1, 138, 23, 56, 110, 102, 16, 5, 0, 128, 0, 4, 9, 104, 116, 116, 112, 115, 58, 52, 52, 51, 0, 0, 33, 128, 90, 207, 96, 211, 5, 87, 105, 110, 51, 50, 39, 181, 159, 90]
+
+var _$3B = _$Cj(_$o$(_$r3, _$dk)) = "KX7bFx5qWh4HcZasOriBXELa4MU4WHMqe6duF6ZroW3BPhx2C4ODu6LaTBz87YmrNmZ0lEphXJ25asHCZPtdHjqBWVfK2Lng.L8vbuq.wjkWUWuh0___dV1OF4Jg1fazZ2CVVLGVx7EhQQI85JBwtG"
+
+_$jU + _$3B  = "6RiWGgDsOE3VqqqDtmufXRG8KN0wDIG81ASXDr8m.U1GVxjCy5UBvxW3heN8ieEVUm7GEVmAeFeR7jhMIB6AWPc2HlX9rNBhiNytzwcB1zGw15TwIQrudopNT4R6RskiB.cgkrkb1983whu4osrwM8W5ZNpwo6qK2N5IrV2BlPfUG"
+
