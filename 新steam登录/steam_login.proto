@@ -1,0 +1,75 @@
+syntax = "proto3"; // 定义proto的版本
+
+enum EnumType {
+  DEFAULT = 0;
+}
+
+message CAuthentication_GetPasswordRSAPublicKey_Request{
+  string account_name = 1;
+}
+message CAuthentication_GetPasswordRSAPublicKey_Response{
+  string publickey_mod = 1;
+  string publickey_exp = 2;
+  uint64 timestamp = 3;
+}
+message CAuthentication_BeginAuthSessionViaCredentials_Response{
+  uint64 client_id = 1;
+  bytes request_id = 2;
+  float interval = 3;
+  bool allowed_confirmations = 4;
+  uint64 steamid = 5;
+  string weak_token = 6;
+  string agreement_session_url = 7;
+  string extended_error_message = 8;
+
+}
+message CAuthentication_BeginAuthSessionViaCredentials_Request {
+  bool remember_login = 1;
+  string account_name = 2;
+  string encrypted_password = 3;
+  int64 encryption_timestamp = 4;
+  int32 set_remember_login = 5;
+  EnumType platform_type = 6;
+  EnumType persistence = 10;
+  bool set_presistence = 7;
+  string website_id = 8;
+  repeated device_details device_details = 9;
+  int32 language = 11;
+}
+
+message device_details {
+  string device_friendly_name = 1;
+  int32 flatform_type = 2;
+  int32 os_type = 3;
+  uint32 gaming_device_type = 4;
+  uint32 client_count = 5;
+  bytes machine_id = 6;
+}
+
+message CAuthentication_PollAuthSessionStatus_Request {
+  uint64 client_id = 1;
+  bytes request_id = 2;
+  fixed64 token_to_revoke = 3;
+}
+message CAuthentication_PollAuthSessionStatus_Response {
+  uint64 new_client_id = 1;
+  string new_challenge_url = 2;
+  string refresh_token = 3;
+  string access_token = 4;
+  bool had_remote_interaction = 5;
+  string account_name = 6;
+  string new_guard_data = 7;
+  string agreement_session_url = 8;
+}
+
+
+
+message CAuthentication_UpdateAuthSessionWithSteamGuardCode_Request {
+  uint64 client_id = 1;
+  fixed64 steamid = 2;
+  string code = 3;
+  EnumType code_type = 4;
+}
+message CAuthentication_UpdateAuthSessionWithSteamGuardCode_Response {
+  string agreement_session_url = 1;
+}
